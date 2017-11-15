@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:duplicateParentState="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_size"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewStart"/>
+
+    <TextView
+        android:id="@+id/widget_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="fill_horizontal|top"
+        android:textAppearance="@android:style/TextAppearance.Material.Body1"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewStart"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:id="@+id/widget_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="8dip"
+        android:layout_gravity="fill_horizontal|top"
+        android:textAppearance="@android:style/TextAppearance.Material.Body1"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewStart"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewStart"
+        android:text="@string/code_size"/>
+
+    <TextView
+        android:id="@+id/code_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="fill_horizontal|top"
+        android:textAppearance="@android:style/TextAppearance.Material.Body1"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewStart"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewStart"
+        android:text="@string/data_size"/>
+
+    <TextView
+        android:id="@+id/data_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="fill_horizontal|top"
+        android:textAppearance="@android:style/TextAppearance.Material.Body1"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewStart"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewStart"
+        android:text="@string/cache_size"/>
+
+    <TextView
+        android:id="@+id/cache_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="fill_horizontal|top"
+        android:textAppearance="@android:style/TextAppearance.Material.Body1"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewEnd"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:duplicateParentState="true" />
+
+</LinearLayout>
